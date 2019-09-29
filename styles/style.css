@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  font-family: 'Zhi Mang Xing', cursive;
+  font-family: 'ZCOOL KuaiLe', cursive;
   background-color: #00539F;
 }
 
@@ -20,6 +20,14 @@ h1 {
   color: #00539F;
   text-shadow: 3px 3px 1px black;
 }
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
 
 img {
   width: 300px;
@@ -27,8 +35,9 @@ img {
   margin: 0 auto;
 }
 
-p, li {
+p, li, dt, dd {
   font-size: 30px;
   line-height: 2;
   letter-spacing: 1px;
 }
+
