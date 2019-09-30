@@ -35,6 +35,13 @@ img {
   margin: 0 auto;
 }
 
+figcaption {
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+
 p, li, dt, dd {
   font-size: 30px;
   line-height: 2;

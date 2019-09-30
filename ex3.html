@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <!--link href="styles/style.css" rel="stylesheet" type="text/css"-->
     <title>Html3</title>
   </head>
   <body>
@@ -11,9 +11,14 @@
       <li><a href="index.html">Index</a></li>
       <li><a href="ex1.html">Ex1: list</a></li>
       <li><a href="ex2.html">Ex2: mark text</a></li>
-      <li>Ex3: </li>
+      <li>Ex3: autosize picture</li>
     </ul>
 
+    <picture>
+      <source media="(max-width: 799px)" srcset="images/test_img1.jpg">
+      <source media="(min-width: 800px)" srcset="images/test_img5.jpg">
+      <img src="images/zenos0.jpg">
+    </picture>
     
   </body>
 </html>
